@@ -6,16 +6,16 @@ The User Side is a desktop application that allows users to upload their diabete
 The primary goal of this system is to offer efficient diabetes care using real-time data transmission, cloud-based analysis, and actionable insights for both patients and healthcare providers.
 
 Table of Contents
-Project Overview
-Features
-Technologies Used
-System Architecture
-Installation
-Usage
-Contributing
+Project Overview,
+Features,
+Technologies Used,
+System Architecture,
+Installation,
+Usage,
+Contributing,
 License
 
-Project Overview
+Project Overview:
 The 5G Smart Diabetes system is designed to make diabetes management more efficient by integrating 5G technology and cloud computing for real-time glucose monitoring.
 It involves a desktop application on the user side, where users upload their glucose data, and a cloud backend that processes the data, analyzes it, and returns meaningful results to the users.
 
@@ -28,7 +28,7 @@ Hosts the backend system responsible for processing and analyzing uploaded data.
 Provides real-time feedback, including glucose level predictions, alerts, and recommendations.
 Stores patient data securely in the cloud for future analysis and tracking.
 
-Features
+Features:
 Real-Time Data Upload: Upload glucose data from the user device to the cloud.
 Data Processing and Analysis: Cloud-based algorithms analyze the glucose levels and provide actionable insights.
 Health Alerts: Cloud system sends notifications and alerts if abnormal glucose levels are detected.
@@ -54,12 +54,14 @@ The cloud system processes the incoming user data, performs analysis (e.g., mach
 It communicates back to the desktop application, providing real-time feedback and alerts.
 Installation
 Prerequisites
+
 User Side:
 
 Windows/Mac/Linux system with the ability to run desktop applications.
 Python 3.x (if you're using Python for the backend integration).
 Node.js (if building a cross-platform desktop app using Electron).
 Required libraries (list them in requirements.txt or similar files).
+
 Cloud Side:
 
 Cloud platform (e.g., AWS, Google Cloud, Azure).
@@ -90,7 +92,7 @@ npm install
 npm start
 Configure the cloud URL in the user-side application to point to your cloud backend.
 
-Usage
+Usage:-
 User Side:
 Launch the desktop application.
 Upload your glucose data:
